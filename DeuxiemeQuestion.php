@@ -2,7 +2,7 @@
 session_start();
 
 if (empty($_SESSION["reponse_1"])) {
-    header("location: PremiereQuestion.php");
+    header("location: index.php");
     exit;
 }
 

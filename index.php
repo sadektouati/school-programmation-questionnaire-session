@@ -3,7 +3,7 @@ session_start();
 
 if (isset($_GET["recommencer"])) {
     session_destroy();
-    header("location: PremiereQuestion.php");
+    header("location: index.php");
     exit;
 }
 

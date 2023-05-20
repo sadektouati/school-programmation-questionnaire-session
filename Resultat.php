@@ -2,7 +2,7 @@
 session_start();
 
 if (empty($_SESSION["reponse_1"]) or empty($_SESSION["reponse_2"])) {
-    header("location: PremiereQuestion.php");
+    header("location: index.php");
     exit;
 }
 
@@ -30,7 +30,7 @@ if (empty($_SESSION["reponse_1"]) or empty($_SESSION["reponse_2"])) {
         }
         ?>
         <div>
-            <a href="PremiereQuestion.php?recommencer=oui">Recommencer</a>
+            <a href="index.php?recommencer=oui">Recommencer</a>
         </div>
     </div>
 
